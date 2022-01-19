@@ -5,7 +5,7 @@ from NewCardsTab import NewCardsTab
 from Update import UpdateTab
 from CollectionTab import CollectionTab
 
-
+# class for running the GUI of the App
 class Gui:
 
     def __init__(self):
