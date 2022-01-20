@@ -1,17 +1,15 @@
-import numpy as np
 import cv2
 import json
 import pytesseract
-import os
 from os import walk
 import shutil
 import Sql
 import PIL
 
+# set the directory for the pytesseract library, this is the default path after installing the library
 pytesseract.pytesseract.tesseract_cmd = r'C:\\program Files\\Tesseract-OCR\\tesseract.exe'
 
 card_directory = 'card_reader/new_cards/'
-set_directory = 'card_reader/sets/'
 
 
 def remove_mana(img):

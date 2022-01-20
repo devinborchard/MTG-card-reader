@@ -1,6 +1,7 @@
 import json
 
 
+# function to read in spp configurations from the config.txt file
 def get_config():
     with open('config.txt') as f:
         configurations = {}
@@ -12,6 +13,7 @@ def get_config():
         return config
 
 
+# function to save the configurations into the config.txt file
 def save_config(config):
     s = json.dumps(config)
     print(s)
