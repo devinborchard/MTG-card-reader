@@ -1,1 +1,1 @@
-{"new_image_path": "C:\\Users\\Devin\\Desktop\\mtg card reader\\card_reader\\new_cards", "color_theme": "dark"}
+{"new_image_path": "C:\\Users\\Devin\\Desktop\\mtg-card-reader\\card_reader\\cards", "color_theme": "dark"}
