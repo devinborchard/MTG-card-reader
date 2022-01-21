@@ -24,7 +24,7 @@ AllPrintings.JSON is updated online. The user can download the new file and
 update the application when needed.
 
 
-#IMPROVEMENTS
+# Imporovements
 At the moment the functionality for reading in cards from images is
 finicky. The images have to be perfectly aligned to work. I am working to
 write code that will detect the edges of the card in the image and will rotate
